@@ -1,0 +1,331 @@
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ pwd
+/c/Users/UNDEAD
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .VirtualBox/
+        .android/
+        .atom/
+        .bash_history
+        .cache/
+        .eclipse/
+        .gitconfig
+        .oracle_jre_usage/
+        .p2/
+        .tooling/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Intel/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{0609bf96-44c1-11e6-80ce-b8ca3aee1ac4}.TM.blf
+        NTUSER.DAT{0609bf96-44c1-11e6-80ce-b8ca3aee1ac4}.TMContainer000000000000                                                                              00000001.regtrans-ms
+        NTUSER.DAT{0609bf96-44c1-11e6-80ce-b8ca3aee1ac4}.TMContainer000000000000                                                                              00000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ cd docuemnt
+bash: cd: docuemnt: No such file or directory
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ cd docuemnts
+bash: cd: docuemnts: No such file or directory
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ cd Do
+Documents/ Downloads/
+
+UNDEAD@ENVY MINGW64 ~ (master)
+$ cd Documents/
+
+UNDEAD@ENVY MINGW64 ~/Documents (master)
+$ ls
+Adobe/              BFBC2/                             commulativeLinded.c     CStandard.PO                'down to zero.c'     'jessi&cookies.c'     main2.c
+ancestor.c          Bluetooth/                         commulativeLinded.exe*  CStandard.PR                'down to zero.exe'*  'jessi&cookies.exe'*  main2.o
+'and xor or .c'     bomber.pdf                         complement.c            CStandard.PRI               editor.c             knottsalgo.cpp        Makefile
+'and xor or .exe'*  bst.c                              complement.exe*         CStandard.PS                fib.c                knottsalgo.exe*       mat.c
+aray.c              'btree to doubli linked list.cpp'  crysis.rtf              CStandard.WK3               glasstriangle.cpp    'largest rect.c'      maxinsta
+arrayrev.c          castle.c                           CStandard.IAB           cubesum.c                   gmon.out             link_rev.c            multibtr
+asg1.c              castle.exe*                        CStandard.IAD           cubesum2.c                  heap.c               link_rev.cpp          multiway
+asg1.cpp            circular.c                         CStandard.IMB           'Custom Office Templates'/  heap.exe*            main.c                'My Game
+Avatar/             coin.c                             CStandard.IMD           Database1.accdb             hj.cpp               main.cpp              number.c
+'b+ tree.cpp'       coinchange.c                       CStandard.PFI           desktop.ini                 inftopre.cpp         main.o                pattern.
+
+UNDEAD@ENVY MINGW64 ~/Documents (master)
+$ mkdir gitCode
+
+UNDEAD@ENVY MINGW64 ~/Documents (master)
+$ ls
+Adobe/                             CStandard.WK3               'My Games'/
+ancestor.c                         cubesum.c                   number.c
+'and xor or .c'                    cubesum2.c                  pattern.c
+'and xor or .exe'*                 'Custom Office Templates'/  petroltruck.c
+aray.c                             Database1.accdb             poison.c
+arrayrev.c                         desktop.ini                 Project1.dev
+asg1.c                             'down to zero.c'            Project2.dev
+asg1.cpp                           'down to zero.exe'*         Project2.exe*
+Avatar/                            editor.c                    Project2.layout
+'b+ tree.cpp'                      fib.c                       quickinsertion.c
+BFBC2/                             gitCode/                    rep.c
+Bluetooth/                         glasstriangle.cpp           'SELF EXERCISES FOR SOLVING AND PRACTICE Let us C.pdf'
+bomber.pdf                         gmon.out                    simulatelinkedlist.c
+bst.c                              heap.c                      sortednode.c
+'btree to doubli linked list.cpp'  heap.exe*                   'Source Insight'/
+castle.c                           hj.cpp                      sparse.c
+castle.exe*                        inftopre.cpp                spiral.c
+circular.c                         'jessi&cookies.c'           stack.cpp
+coin.c                             'jessi&cookies.exe'*        swapnodes.cpp
+coinchange.c                       knottsalgo.cpp              swapnodes.exe*
+commulativeLinded.c                knottsalgo.exe*             test.c
+commulativeLinded.exe*             'largest rect.c'            test.cpp
+complement.c                       link_rev.c                  test1.c
+complement.exe*                    link_rev.cpp                test1.exe*
+crysis.rtf                         main.c                      test2.c
+CStandard.IAB                      main.cpp                    testt.c
+CStandard.IAD                      main.o                      trail.c
+CStandard.IMB                      main2.c                     trailing.cpp
+CStandard.IMD                      main2.o                     user.ltx
+CStandard.PFI                      Makefile.win                'Video Download Capture'/
+CStandard.PO                       mat.c                       'Virtual Machines'/
+CStandard.PR                       maxinstack.cpp              Youcam/
+CStandard.PRI                      multibtree.c
+CStandard.PS                       multiwaytree.cpp
+
+UNDEAD@ENVY MINGW64 ~/Documents (master)
+$ cd gitCode/
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ ls
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ pwd
+/c/Users/UNDEAD/Documents/gitCode
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ git clone https://github.com/vinay-negi/DataStructures.git
+Cloning into 'DataStructures'...
+warning: You appear to have cloned an empty repository.
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ pwd
+/c/Users/UNDEAD/Documents/gitCode
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ ls
+DataStructures/
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode (master)
+$ cd DataStructures/
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ ls
+BinarySearchTree.cpp
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        BinarySearchTree.cpp
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git add BinarySearchTree.cpp
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   BinarySearchTree.cpp
+
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(null)>) not allowed
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git push -m "First class"
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git push
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/vinay-negi/DataStruct                                                                                  ures.git'
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   BinarySearchTree.cpp
+
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git commit -m "First file"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(null)>) not allowed
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git config --global user.email "vinaynegi.envy@gmail.com"
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git config --global user.name "Vinay"
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git commit -m "First file"
+[master (root-commit) db02315] First file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 BinarySearchTree.cpp
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vinay-negi/DataStructures.git
+ * [new branch]      master -> master
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   BinarySearchTree.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git add BinarySearchTree.cpp
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   BinarySearchTree.cpp
+
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git commit -m "Changing it to demo"
+[master dc0849b] Changing it to demo
+ 1 file changed, 1 insertion(+)
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 270 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vinay-negi/DataStructures.git
+   db02315..dc0849b  master -> master
+
+UNDEAD@ENVY MINGW64 ~/Documents/gitCode/DataStructures (master)
+$
